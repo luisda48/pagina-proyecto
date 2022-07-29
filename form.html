@@ -1,0 +1,114 @@
+<html>
+<head>
+<Title> Compra </title>
+    <meta name="description" content="Tienda de Musica">
+    <meta name="keywords" content="Musica,web,ti,cv,utfv">
+    <meta name="author" content="Fer Alvarez">
+    <link  rel="icon"   href="IMG/lm.png" type="image/png">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/Menu_style.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/form_style.css"/>
+</head>
+
+<body>
+<header id="main-header">
+        <a><img src="IMG/lm.png" width="50" height="50"></a>
+        <a id="logo-header" href=IMG/lm.png>
+            <span class="site-name">Music Love E</span>
+            <span class="site-desc">Musica, Lo que amas...</span>
+        </a> 
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Pag5.html">Quienes somos</a></li>
+                <li><a href="Pag6.html">Contacto</a></li>
+            </ul>
+        </nav>
+<nav id="menu">
+<ul>
+  <li><a>Artistas</a>
+    <ul>
+      <li><a href="Pag1.html">Maroon V</a></li>
+      <li><a href="Pag2.html">Linkin Park</a></li>
+      <li><a href="Pag3.html">Bullet For My Valentine</a></li>
+      <li><a href="Pag4.html">Avenged Svenfold</a></li>
+    </ul>
+  </li>
+</ul>
+</nav>
+</header>
+
+<form class="formulario3" action="compra.php" method="post">
+    <h1>Quieres Adquirir nuestra Musica.</h1>
+     <div class="contenedor">
+        <h3>Llena lo que se te pide</h3>
+        <div class="input-contenedor">
+         <select name="art">
+         <option disabled selected>Artista</option>
+         <option>Maroon V</option>
+         <option>Linkin Park</option>
+         <option>Bullet For My Valentine</option>
+         <option>Avenged Svenfold</option>
+         </select>
+         </div>
+
+         <div class="input-contenedor">
+         <select name="ap">
+         <option disabled selected>Opción a Comprar</option>
+         <option>Álbum</option>
+         <option>Sencillo</option>
+         </select>
+         </div>
+
+         <div class="input-contenedor">
+         <select name="ford">
+         <option disabled selected>Formato de Descarga</option>
+         <option>MP3</option>
+         <option>FLAC</option>
+         </select>
+         </div>
+
+         <h3>Sus datos</h3>
+     
+         <div class="input-contenedor">
+         <input type="text" placeholder="Nombre" name="nam" maxlength=30 required>
+         </div>
+
+         <div class="input-contenedor">
+         <input type="text" placeholder="Correo Electronico" name="core" maxlength=30 required>
+         </div>
+
+         <div class="input-contenedor">
+         <select name="mp">
+         <option disabled selected>Metodo de pago</option>
+         <option>Tarjeta de credito</option>
+         <option>PayPal</option>
+         <option>Efectivo</option>
+         </select>
+         </div>
+
+         <input type="submit" value="Comprar" class="button">
+         <p>Al comprar, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+         <p>¿Te arrepentiste? <a class="link" href="Inicio.html">Regresa al Inicio</a></p>
+     </div>
+    </form>
+
+<center>
+<TABLE BORDER="0" style="background-color: #FFF;">
+<tr>
+<td><A HREF="Pag1.html"><img src="IMG/mv.jpg" width="200"></A></td>
+<td><A HREF="Pag2.html"><img src="IMG/lpm.jpg" width="200"></A></td>
+</tr>
+<tr>
+<td><A HREF="Pag3.html"><img src="IMG/BV.jpg" width="200"></A></td>
+<td><A HREF="Pag4.html"><img src="IMG/ah.jpg" width="200"></A></td>
+</tr>
+</TABLE>
+</center>
+
+<footer id="main-footer">
+    <p>&copy; 2020 <a href="Inicio.html">Music Love E</a></p>
+</footer> 
+
+</body>
+</html>
